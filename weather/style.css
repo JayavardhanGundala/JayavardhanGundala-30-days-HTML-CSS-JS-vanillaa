@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    border-radius: 10px;
+
+    max-width: 1000px;
+    background: linear-gradient(rgba(255, 255, 255, 0.558),rgba(0, 147, 206, 0.7));
+}
+.first{
+    display: flex;
+    width: 90%;
+    gap: 20px;
+    margin-top: 39px;
+
+}
+.tem{
+    display: flex;
+    gap: 15px;
+}
+.first input{
+border: 1px solid rgb(249, 249, 249);
+font-size: 25px;
+width: 75%;
+border-radius: 22px;
+padding-top: 10px;
+padding-bottom: 10px;
+color: rgba(110, 100, 100, 0.501);
+
+
+}
+input::placeholder{
+    padding-left:10px ;
+    color: rgba(160, 148, 148, 0.466);
+    border-color: white;
+}
+input:focus{
+    outline: none;
+    border: 1px solid white;
+    padding-left: 28px;
+}
+.first button{
+    width:50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-color: white;
+    border-radius: 50%;
+
+}
+button img{
+    width: 40%;
+    height: 50%;
+}
+.weather{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.weather img{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    object-fit: cover;
+    object-position: center;
+    margin-top: 15px;
+
+
+}
+.weather h1{
+    font-size: 55px;
+    color: white;
+    filter: drop-shadow(1px 1px 3px rgba(33, 30, 30, 0.425));
+}
+.weather h2{
+     font-size: 35px;
+    color: white;
+    filter: drop-shadow(1px 1px 3px rgba(33, 30, 30, 0.425));
+
+}
+.detail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 49px;
+    gap: 40px;
+}
+.col{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: white; 
+     color: white;
+    filter: drop-shadow(1px 1px 3px rgba(51, 47, 47, 0.116));
+    
+
+}
+.col img{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    object-fit: cover;
+    object-position: center;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.left p:nth-child(1){
+    font-size: 25px;
+}
+.left p:nth-child(2){
+    font-size: 20px;
+}
