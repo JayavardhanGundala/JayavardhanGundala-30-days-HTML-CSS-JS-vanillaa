@@ -1,0 +1,70 @@
+*{
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+}
+.c{
+    width: 60%;
+
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: rgba(81, 121, 66, 0.841);
+    height: 100vh;
+}
+p{
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    padding: 10px;
+    align-content: start;
+}
+p span{
+    display: block;
+    font-size: 60px;
+    background: linear-gradient(to right, rgb(7, 80, 60),rgb(129, 47, 87));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+
+}
+.contain{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 10px;
+    gap: 20px;
+    background: rgba(34, 33, 33, 0.3);
+    backdrop-filter: blur(50px);
+    width: 50%;
+    
+}
+.contain input{
+    padding: 10px;
+    font-size: 20px;
+    width: 100%;
+    font-weight: 500;
+    
+
+}
+.contain .in{
+    width: 100%;
+}
+.contain button{
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 500;
+
+    
+}
+#re p{
+    padding-top: 10px;
+    color:  white;
+    font-size: 25px;
+    font-weight: 500;
+}
